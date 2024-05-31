@@ -11,6 +11,13 @@ namespace AlgorithmsDataStructures.Algo.Test
     public class IntermediateTest
     {
         [Fact]
+        public void IsValidTest()
+        {
+            Assert.True(Intermediate.IsValid("()"));
+            Assert.False(Intermediate.IsValid("["));
+        }
+
+        [Fact]
         public void LengthOfLongestSubstringTest()
         {
             Assert.Equal(3, Intermediate.LengthOfLongestSubstring("pwwkew"));

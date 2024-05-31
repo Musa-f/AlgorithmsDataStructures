@@ -10,7 +10,6 @@ namespace AlgorithmsDataStructures.Algo.Exercises
     //LEETCODE EXERCISES
     public class Intermediate
     {
-
         public static bool IsValid(string s)
         {
             Stack<char> stack = new();

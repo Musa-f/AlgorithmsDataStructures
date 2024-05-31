@@ -6,9 +6,7 @@ public static class Program
 {
     public static void Main()
     {
-        bool value = Intermediate.IsValid("(");
 
-        Console.WriteLine(value);
 
     }
 }
